@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-   - source: /HelloWorld.java
+   - source: /target/SampleMavenTomcatApp.war
      destination: /usr/local/tomcat7/webapps/hello/WEB-INF/classes/
    - source: /pom.xml
      destination: /usr/local/tomcat7/webapps/hello/WEB-INF/
