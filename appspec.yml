@@ -3,7 +3,7 @@ os: linux
 files:
    - source: /HelloWorld.java
      destination: /usr/local/tomcat7/webapps/hello/WEB-INF/classes/
-   - source: /web.xml
+   - source: /pom.xml
      destination: /usr/local/tomcat7/webapps/hello/WEB-INF/
 permissions:
    - object: /usr/local/tomcat7/webapps/hello/
